@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数据处理流水线生成器</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>数据处理流水线生成器</h1>
+            <p>使用AI生成基于工具库的数据处理代码</p>
+        </header>
+
+        <div class="main-content">
+            <div class="description-panel">
+                <h2>任务要求</h2>
+                <div class="task-input">
+                    <textarea id="task-description" class="task-textarea" placeholder="请输入任务描述，每行一个要求&#10;例如：&#10;1. 从OSS的raw_data/目录下读取最新的CSV文件&#10;2. 将文件内容解析后批量插入到MySQL的raw_records表中&#10;3. 对处理完成的文件，在OSS中移动到processed_data/目录&#10;4. 记录处理日志到SQLite的process_logs表&#10;&#10;请确保包含适当的错误处理和资源清理。">1. 从OSS的raw_data/目录下读取最新的CSV文件
+2. 将文件内容解析后批量插入到MySQL的raw_records表中
+3. 对处理完成的文件，在OSS中移动到processed_data/目录
+4. 记录处理日志到SQLite的process_logs表
+
+请确保包含适当的错误处理和资源清理。</textarea>
+                </div>
+
+                <h2>工具库说明</h2>
+                <div class="tool-description">
+                    <pre id="tool-guide">正在加载工具库说明...</pre>
+                </div>
+            </div>
+
+            <div class="code-panel">
+                <div class="code-header">
+                    <h2>生成的代码</h2>
+                    <button id="generate-btn" class="generate-btn">生成代码</button>
+                </div>
+                <div class="code-content">
+                    <textarea id="code-output" class="code-textarea" readonly># 点击"生成代码"按钮来生成数据处理流水线代码</textarea>
+                </div>
+                <div class="action-buttons">
+                    <button id="copy-btn" class="copy-btn">复制代码</button>
+                    <button id="download-btn" class="download-btn">下载代码</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
