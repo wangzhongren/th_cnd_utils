@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+th_cnd_utils.egg-info/PKG-INFO
+th_cnd_utils.egg-info/SOURCES.txt
+th_cnd_utils.egg-info/dependency_links.txt
+th_cnd_utils.egg-info/requires.txt
+th_cnd_utils.egg-info/top_level.txt

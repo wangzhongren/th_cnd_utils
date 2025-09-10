@@ -1,0 +1,17 @@
+include README.md
+include LICENSE
+include requirements.txt
+include .env.example
+include UTILS_CALL_GUIDE.md
+include UTILS_CALL_REPORT.md
+include pyproject.toml
+
+recursive-include th_cnd_utils/examples *.py
+recursive-include th_cnd_utils *.md
+recursive-include th_cnd_utils *.example
+
+global-exclude __pycache__
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude *~
+global-exclude .git*
