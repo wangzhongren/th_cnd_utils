@@ -1,5 +1,9 @@
 # th_cnd_utils - AI-DO工具库
 
+[![PyPI](https://img.shields.io/pypi/v/th_cnd_utils)](https://pypi.org/project/th_cnd_utils/)
+[![Python Version](https://img.shields.io/pypi/pyversions/th_cnd_utils)](https://pypi.org/project/th_cnd_utils/)
+[![License](https://img.shields.io/pypi/l/th_cnd_utils)](https://github.com/your-org/th_cnd_utils/blob/main/LICENSE)
+
 一个包含各种数据存储和云服务工具的Python库，旨在将AI装进框架的笼子。
 
 ## 项目理念
